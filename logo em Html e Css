@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo MundoPet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.logo {
+    text-align: center;
+}
+
+.icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px auto;
+}
+
+.dog-head {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+}
+
+.plus {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4fb3b3;
+}
+
+.text {
+    text-align: center;
+}
+
+.mundopet {
+    font-size: 40px;
+    color: #4fb3b3;
+    font-weight: bold;
+}
+
+.mundopet .pet {
+    color: black;
+}
+
+.tagline {
+    display: block;
+    font-size: 16px;
+    color: #777;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+</style>
+<body>
+    <div class="logo">
+        <div class="icon">
+            <div class="dog-head"></div>
+            <div class="plus">+</div>
+        </div>
+        <div class="text">
+            <span class="mundopet">MUNDO<span class="pet">PET</span></span>
+            <span class="tagline">CLÍNICA VETERINÁRIA</span>
+        </div>
+    </div>
+</body>
+</html>
